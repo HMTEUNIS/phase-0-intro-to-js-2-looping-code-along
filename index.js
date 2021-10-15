@@ -14,10 +14,18 @@ function writeCards(nameList, event) {
 
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
+// function countDown(i)
+// let countDown = i;
+// while (i > -1){
+//    console.log(i--)
+// }
+
+// countDown(10)
+
 function countDown(i) {
-let countDown = i;
-while (i > -1) 
-  console.log(i--)
-}
-countDown(10)
+    let countDown = i;
+    while (i > -1) 
+      console.log(i--)
+    }
+    countDown(10)
 
